@@ -20,56 +20,56 @@ Using fasttext to classify lshtc training data(for model evaluation ).
  <h2>Fasttext parameters used are :</h2>
     <p>dim 200 , epoch 100 , lr 0.25 , loss hs </p>
     <p> The number of labels predicted by fastext is based on the Average_labels_per_document in top n class data</p>
-    <p>The results are as follows:</p>
+    <p>The results are as follows: (scores are rounded to two places)</p>
 
 <h2>for n=10:</h2>
   
-  **Average_labels_per_document** = 1.2040520887536859
+  **Average_labels_per_document** = 1.2
 
 So,Predicting  1 label per doc using fasttext
 
-**macro_precision** = 0.7721319410090449
+**macro_precision** = 0.77
 
-**macro_recall** = 0.45440001895511434
+**macro_recall** = 0.45
 
-**macro_fscore** = 0.544640031905407
+**macro_fscore** = 0.54
 
 <h2>for n=100:</h2>
 
-**Average_labels_per_document** = 1.4025902858246426
+**Average_labels_per_document** = 1.4
 
 So,Predicting  1 label per doc using fasttext
 
 
-**macro_precision** = 0.5063146170884429
+**macro_precision** = 0.51
 
-**macro_recall** = 0.2950444835595893
+**macro_recall** = 0.30
 
-**macro_fscore** = 0.3544236294610442
+**macro_fscore** = 0.35
 
 
 <h2>for n=1000:</h2>
 
-**Average_labels_per_document** = 1.9115519552849054
+**Average_labels_per_document** = 1.9
 
 So,Predicting  2 labels per doc using fasttext
 
-**macro_precision** = 0.3455700747447608
+**macro_precision** = 0.34
 
-**macro_recall** = 0.3395190123331962
+**macro_recall** = 0.34
 
-**macro_fscore** = 0.3231711861919399
+**macro_fscore** = 0.32
 
 
 <h2>for n=10000:</h2>
 
-**Average_labels_per_document** = 2.4095504116927997
+**Average_labels_per_document** = 2.4
 
 So,Predicting  2 labels per doc using fasttext
 
-**macro_precision** = 0.2500700256356269
+**macro_precision** = 0.25
 
-**macro_recall** = 0.22185674621604384
+**macro_recall** = 0.22
 
-**macro_fscore** = 0.2148148932757374
+**macro_fscore** = 0.21
 
