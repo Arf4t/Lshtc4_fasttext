@@ -1,4 +1,4 @@
-# Lshtc_fasttext
+# Lshtc4_fasttext
 Using fasttext to classify lshtc training data(for model evaluation ). 
 (As true labels are not present for lshtc test data)
  
